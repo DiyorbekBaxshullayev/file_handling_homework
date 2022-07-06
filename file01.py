@@ -7,4 +7,9 @@ def main(data:str):
         list: return answer
     """
 
+    return  data.split(',')
+
 # Read data from file
+f=open('txt_file/data01.txt')
+data=f.read()
+print(main(data))
