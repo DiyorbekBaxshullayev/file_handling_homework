@@ -9,7 +9,12 @@ def main(data:str):
     a=[]
     i=0
     while i<len(data):
-        if data[i].isalpha():
+        
+
+        if data[i].isdigit():
+            pass
+
+        else:
             a.append(data[i])
 
         i+=1
