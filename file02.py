@@ -6,5 +6,13 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    s = 0
+    for i in data:
+        s += 1
 
+    return s
+
+f=open('txt_file/data02.txt')
+data=f.read()
+print(main(data))
 # Read data from file
